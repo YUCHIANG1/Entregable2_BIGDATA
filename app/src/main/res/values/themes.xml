@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EmocLib" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/my_light_primary_dark</item>
+        <item name="colorAccent">@color/my_light_accent</item>
+        <item name="android:windowBackground">@color/my_light_window_background</item>
+        <item name="android:textColorPrimary">@color/my_light_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/my_light_text_color_secondary</item>
+        <!-- Agrega más elementos de estilo aquí -->
+    </style>
+
+    <!-- Define your custom colors -->
+    <color name="my_light_primary">#FF4081</color>
+    <color name="my_light_primary_dark">#D81B60</color>
+    <color name="my_light_accent">#FF5722</color>
+    <color name="my_light_window_background">#FFFFFF</color>
+    <color name="my_light_text_color_primary">#000000</color>
+    <color name="my_light_text_color_secondary">#666666</color>
+
+    <!-- Define your custom Theme extending Base.Theme.EmocLib -->
+    <style name="Theme.EmocLib" parent="Base.Theme.EmocLib" />
+</resources>

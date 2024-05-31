@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EmocLib" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primary_dark</item>
+        <item name="colorAccent">@color/my_dark_accent</item>
+        <item name="android:windowBackground">@color/my_dark_window_background</item>
+        <item name="android:textColorPrimary">@color/my_dark_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/my_dark_text_color_secondary</item>
+        <!-- Agrega más elementos de estilo aquí -->
+    </style>
+
+    <!-- Define your custom colors for dark theme -->
+    <color name="my_dark_primary">#2196F3</color>
+    <color name="my_dark_primary_dark">#1976D2</color>
+    <color name="my_dark_accent">#FFC107</color>
+    <color name="my_dark_window_background">#212121</color>
+    <color name="my_dark_text_color_primary">#FFFFFF</color>
+    <color name="my_dark_text_color_secondary">#CCCCCC</color>
+</resources>

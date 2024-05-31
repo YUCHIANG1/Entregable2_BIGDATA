@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\SOPORTE\AndroidStudioProjects\EmocLib\sdk\.cxx\Debug\33i705w3\x86_64'
+ninja: no work to do.
